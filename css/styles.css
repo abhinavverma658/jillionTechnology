@@ -91,6 +91,27 @@
     position: relative;
     padding: 20px;
     animation: slideInFromLeft 1s ease-out;
+   border-radius: 64% 36% 38% 62% / 65% 42% 58% 35% ;
+}
+.task{
+    background: rgb(9,5,161);
+    background: linear-gradient(90deg, rgba(9,5,161,1) 0%, rgba(76,40,209,1) 50%, rgba(150,122,229,1) 100%);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    animation: slideInFromLeft 1s ease-out;
+   border-radius: 32% 68% 16% 84% / 69% 53% 47% 31% ;
+}
+.Privacy{
+    background: rgb(9,5,161);
+    background: linear-gradient(90deg, rgba(9,5,161,1) 0%, rgba(76,40,209,1) 50%, rgba(150,122,229,1) 100%);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    animation: slideInFromLeft 1s ease-out;
+    border-radius: 60% 40% 50% 50% / 57% 38% 62% 43% ;
 }
 .Featuresimg img{
     height: auto;
@@ -150,4 +171,3 @@
       font-size: 0.9rem;
     }
   }
-  

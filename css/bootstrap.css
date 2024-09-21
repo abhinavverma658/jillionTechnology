@@ -5921,10 +5921,10 @@ textarea.form-control-lg {
 }
 
 .carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
+  position:relative;
+  right: auto;
+  bottom:auto;
+  left: auto;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: black;
