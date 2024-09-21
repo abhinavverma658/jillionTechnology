@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins",sans-serif;
+}
+.navBar{
+    background-color: #ffff;
+}
+.idea h1 {
+    color: #5528D1;
+    font-size: 2.5rem;
+}
+
+.idea h2 {
+    color: #E99579;
+    font-size: 2rem;
+}
+
+.ideaimg img {
+    height: auto;
+    width: 100%;
+    max-width: 400px; /* Adjust this as necessary */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 576px) {
+    .idea h1 {
+        font-size: 2rem;
+    }
+
+    .idea h2 {
+        font-size: 1.5rem;
+    }
+
+    .idea p {
+        font-size: 0.9rem;
+    }
+
+    .ideaimg img {
+        margin: 10%;
+        width: 90%;
+        height: auto;
+    }
+    .Featuresimg img{
+        margin: 10%;
+        width: 90%;
+        height: auto;
+    }
+}
+/* Animation for sliding from left */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Animation for sliding from right */
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.idea {
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.ideaimg {
+    animation: slideInFromRight 1s ease-out;
+}
+
+@media (max-width: 576px) {
+    .idea, .ideaimg {
+        animation: none; 
+    }
+}
+.Featuresimg{
+    background: rgb(9,5,161);
+    background: linear-gradient(90deg, rgba(9,5,161,1) 0%, rgba(76,40,209,1) 50%, rgba(150,122,229,1) 100%);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    animation: slideInFromLeft 1s ease-out;
+}
+.Featuresimg img{
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 5%;
+}
+.Features{
+    animation: slideInFromRight 1s ease-out;
+}
+.carousel-image {
+    width: 150px; /* Set the desired size for the circle image */
+    height: 150px; /* Ensures the image is a perfect circle */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+  }
+  
+  .carousel-inner {
+    text-align: center; /* Centers the content inside each slide */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-image {
+      width: 100px; /* Smaller size for mobile */
+      height: 100px;
+    }
+
+  }
+  
+  .contact-section {
+    background: rgb(9,5,161);
+    background: linear-gradient(90deg, rgba(150,122,229,1) 0%, rgba(76,40,209,1) 50%, rgba(9,5,161,1) 100%);
+    color: white;
+  }
+  
+  .contact-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    color:  white;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .contact-section h4 {
+      font-size: 1.25rem;
+    }
+  
+    .contact-section a {
+      font-size: 0.9rem;
+    }
+  }
+  
